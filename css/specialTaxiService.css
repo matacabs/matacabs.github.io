@@ -1,0 +1,148 @@
+body {
+  background: rgba(42, 51, 86, 0.9);
+}
+
+header {
+	width: 90%;
+	height: 25rem;
+	margin: 1em auto;
+	position: relative;
+	text-align: center;
+	background-color: rgba(42, 51, 86, 0.9);
+	height: auto;
+	padding-bottom : 30px;
+}
+.mainHeading {
+	font-size: 3.5rem;
+	text-align: center;
+}
+.subHeadings {
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #fff;
+}
+
+.banner {
+	color: #fff;
+}
+
+.footer-links  li a {
+    color: #f1f1f1;
+	font-size : 0.6em;
+}
+
+.headings  {
+	text-align: left;
+	font-weight: bold;
+	text-transform: uppercase;	
+}
+
+.imageStyle {
+	width: 90%;
+	margin: 1em auto;
+}
+#destinationImages {
+	width: 90%;
+	margin : auto ;
+}
+.navStyle {
+	width: 90%;
+	margin: 1em auto;
+	text-align: center;
+}
+.img-gallery {
+	max-height: 160px;
+	width: 100%;
+	margin-bottom : 0.5em;
+}
+.nav-tabs>li {
+	padding: 0.15rem
+}
+.nav-tabs>li>a {
+	background-color: #0000CD !important;
+	border: medium none;
+	border-radius: 0;
+	color: #fff;
+	margin: auto;
+	text-align:left;
+	font-weight:bold;
+}
+
+.nav-tabs>li>a:hover {
+	background-color: #303136 !important;
+}
+.about, .callUs {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 1.5em;
+	text-align: justify;
+	width: 90%;
+	margin: 1em auto;
+	background: #93beff !important;
+	font-size : 1.2em !important;
+	padding: 20px;
+}
+
+.tagline {
+  font-family : "monospace";
+  text-align: left;
+  font-size: 120%;
+}
+
+.copy-right {
+	font-size : 1.2em !important;
+}
+
+.copy-right  ul li  {
+  display : inline !important;
+}
+
+footer {
+	width: 90%;
+	margin: 1em auto;
+	font-family: "Times New Roman", Times, serif;
+	font-size:160%;
+	background-color: rgba(42, 51, 86, 0.9);
+	padding: 20px;
+}
+footer>.container {
+	margin: auto;
+}
+footer li {
+	list-style-type: none;
+}
+
+@media all and (max-width:991px) {
+	
+	.mainHeading {
+		font-size: 3rem;
+		text-align: center;
+	}
+	.headings {
+		text-align: center;
+		font-weight: bold;
+		text-transform: uppercase;
+	}
+	
+	.tagline {
+	  text-align: center;
+	}
+	
+	.imageResize {
+		width: 20rem;
+		height: 20rem;
+	}
+	.safeExp {
+	 font-size: 140%
+	}
+		
+}
+@media all and (max-width:530px) {
+	.img-gallery  {
+		max-height: 85.5px
+	}
+}
+@media all and (max-width:312px) {
+	.img-gallery  {
+		max-height: 72.5px
+	}
+}
