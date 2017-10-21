@@ -404,13 +404,13 @@
 
 @media screen and (max-width: 991px) {
     .flexslider .slides img {
-        height: 40em;
+        height: 45em;
     }
 }
 
 @media screen and (max-width: 500px) {
     .flexslider .slides img {
-        height: 25em;
+        height: 30em;
     }
 }
 
