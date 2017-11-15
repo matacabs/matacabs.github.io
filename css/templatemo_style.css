@@ -1123,3 +1123,7 @@ div.contact-form input.mainBtn {
         margin-top: 0;
     }
 }
+
+.contact-tel a:hover {
+	color: #fff !important;
+}
